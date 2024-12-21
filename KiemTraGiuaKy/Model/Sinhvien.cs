@@ -10,17 +10,17 @@ namespace KiemTraGiuaKy.Model
     public partial class Sinhvien
     {
         [Key]
-        [StringLength(10)]
-        public string MSSV { get; set; }
+        [StringLength(6)]
+        public string MaSV { get; set; }
 
         [Required]
         [StringLength(40)]
         public string HoTenSV { get; set; }
 
+        public DateTime NgaySinh { get; set; }
+
         [StringLength(3)]
         public string MaLop { get; set; }
-
-        public DateTime? NgaySinh { get; set; }
 
         public virtual Lop Lop { get; set; }
     }

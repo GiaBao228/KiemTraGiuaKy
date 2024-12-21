@@ -8,7 +8,7 @@ namespace KiemTraGiuaKy.Model
     public partial class Model1 : DbContext
     {
         public Model1()
-            : base("name=Model1")
+            : base("name=Model11")
         {
         }
 
@@ -23,7 +23,8 @@ namespace KiemTraGiuaKy.Model
                 .IsUnicode(false);
 
             modelBuilder.Entity<Sinhvien>()
-                .Property(e => e.MSSV)
+                .Property(e => e.MaSV)
+                .IsFixedLength()
                 .IsUnicode(false);
 
             modelBuilder.Entity<Sinhvien>()

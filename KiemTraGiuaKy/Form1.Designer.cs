@@ -135,11 +135,11 @@
             // 
             // txtTim
             // 
-            this.txtTim.Location = new System.Drawing.Point(22, 157);
+            this.txtTim.Location = new System.Drawing.Point(33, 160);
             this.txtTim.Name = "txtTim";
             this.txtTim.Size = new System.Drawing.Size(100, 22);
             this.txtTim.TabIndex = 1;
-            this.txtTim.TextChanged += new System.EventHandler(this.txtTim_TextChanged_1);
+            this.txtTim.TextChanged += new System.EventHandler(this.txtTim_TextChanged);
             // 
             // btnTim
             // 
@@ -149,7 +149,7 @@
             this.btnTim.TabIndex = 2;
             this.btnTim.Text = "Tìm";
             this.btnTim.UseVisualStyleBackColor = true;
-            this.btnTim.Click += new System.EventHandler(this.btnTim_Click_1);
+            this.btnTim.Click += new System.EventHandler(this.btnTim_Click);
             // 
             // btnXoa
             // 
@@ -197,16 +197,16 @@
             this.btnThoat.TabIndex = 8;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
-            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click_1);
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // dgvSinhVien
             // 
             this.dgvSinhVien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvSinhVien.Location = new System.Drawing.Point(35, 207);
+            this.dgvSinhVien.Location = new System.Drawing.Point(103, 207);
             this.dgvSinhVien.Name = "dgvSinhVien";
             this.dgvSinhVien.RowHeadersWidth = 51;
             this.dgvSinhVien.RowTemplate.Height = 24;
-            this.dgvSinhVien.Size = new System.Drawing.Size(735, 193);
+            this.dgvSinhVien.Size = new System.Drawing.Size(616, 193);
             this.dgvSinhVien.TabIndex = 9;
             this.dgvSinhVien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSinhVien_CellClick);
             this.dgvSinhVien.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dgvSinhVien_CellFormatting);
